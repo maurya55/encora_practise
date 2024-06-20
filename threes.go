@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+var x = "testing"
+
+//  x := "testing"
 func main() {
-	fmt.Print("three")
+	if true {
+		fmt.Println(x)
+	}
 }
